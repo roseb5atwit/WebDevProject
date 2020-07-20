@@ -1,23 +1,37 @@
+/*Deals with the head elements. Head wasn't working*/
+#logo{
+	margin: 10px;
+	height: 100px;
+	text-align: top left;
+}
+#links{
+	margin: 20px;
+	line-height: 70px;
+	float: right;
+}
+nav ul li{
+	display: inline;
+}
+li a:hover{
+	color: red;
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url(background.png);
 	background-repeat: repeat-x;
+}
+#a1{
+	margin: 30px;
+	text-align: center;
+}
+#a2{
+	margin: 30px;
+	text-align: center;
+}
+
+footer{
 	
-}
-nav ul {
-	margin-top: 20px;
-	padding: 0;
-	list-style-type: none;
-	text-align: center;
-}
-
-nav.links ul{
-	text-align: right;
-}
-
-nav ul li {
-	display: inline;
-}
-article{
-	text-align: center;
+	background-color: rgb(55, 58, 58);
+	align-self: baseline;
+	
 }
