@@ -39,9 +39,10 @@ body {
 	text-align: center;
 }
 
-footer{
-	
-	background-color: rgb(55, 58, 58);
-	align-self: baseline;
-	
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(55, 58, 58);	
 }
